@@ -1,0 +1,201 @@
+body {
+  background-image: url(bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  font-family: "Courier New", Courier, monospace;
+}
+.main {
+  margin-left: 1rem;
+}
+header {
+  display: flex;
+  padding-top: 1.3rem;
+}
+header a {
+  text-decoration: none;
+  color: red;
+}
+.container2 {
+  padding: 10px 2%;
+}
+nav {
+  display: flex;
+  margin-top: 1rem;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+nav ul li {
+  display: inline-block;
+  margin: -1.5rem 3rem;
+}
+nav ul li a {
+  color: white;
+  font-size: 1.5rem;
+}
+nav ul li a {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  color: white;
+  font-style: italic;
+  position: relative;
+}
+nav ul li a::after {
+  content: "";
+  width: 0;
+  height: 3px;
+  background: rgb(212, 58, 58);
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  transition: 0.5s;
+}
+nav ul li a:hover::after {
+  width: 100%;
+}
+.Sonia_home {
+  font-family: "Courier New", Courier, monospace;
+  margin-right: 8rem;
+  font-weight: bolder;
+  font-size: 2.5rem;
+}
+
+h1 a {
+  color: rgb(236, 56, 56);
+  font-size: larger;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+/* profile */
+#about {
+  padding: 2rem;
+  color: white;
+}
+#about h1 {
+  font-size: 2rem large;
+}
+#about p {
+  font-style: italic;
+}
+#prof-img {
+  height: 15rem;
+  width: 15rem;
+  border-radius: 50%;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.about-col-1 {
+  flex-basis: 5%;
+}
+.about-col-2 {
+  margin: 2.3rem;
+  flex-basis: 60%;
+}
+.sub-title {
+  color: white;
+}
+
+.objective p {
+  color: white;
+}
+.skill li {
+  color: white;
+}
+
+/* Projects */
+#projects {
+  margin: 2.5rem;
+  color: white;
+}
+.project-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 40px;
+  margin-top: 3rem;
+}
+.project-list div {
+  background: rgb(90, 85, 85);
+  padding: 1.5rem;
+  border-radius: 2rem;
+}
+
+/* FORMS */
+.contact-us {
+  margin-left: 5rem;
+}
+
+.contain-contact{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 2rem;
+  margin-top: 3rem;
+}
+
+/* Contact */
+.contact-div{
+  margin-top: 5rem;
+}
+
+.social-icons a {
+  text-decoration: none;
+  color: red;
+}
+
+.social-icons i {
+  padding: 0.5rem;
+  background: rgb(38, 35, 35);
+  font-size: 2rem;
+  border-radius: 0.7rem;
+}
+
+/* Apply basic styling to form elements */
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  background: rgb(30, 26, 26);
+  padding: 3rem;
+  border-radius: 2rem;
+  border: 0.1rem solid red;
+  
+}
+input,
+textarea {
+  color: rgb(12, 12, 12);
+  display: block;
+  margin-bottom: 10px;
+  background-color: rgb(132, 124, 124);
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 0.1rem solid red;
+  border-radius: 0.6rem;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+  margin-top: 2rem;
+  margin-left: 8rem;
+  height: 2.5rem;
+  width: 8rem;
+  background-color: rgb(165, 25, 25);
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+/* Style the submit button on hover */
+input[type="submit"]:hover {
+  background-color: rgb(167, 88, 88);
+}
+::placeholder {
+  color: black;
+}
