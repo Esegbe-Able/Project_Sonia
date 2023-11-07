@@ -128,7 +128,7 @@ h1 a {
   margin-left: 5rem;
 }
 
-.contain-contact{
+.contain-contact {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-gap: 2rem;
@@ -136,7 +136,7 @@ h1 a {
 }
 
 /* Contact */
-.contact-div{
+.contact-div {
   margin-top: 5rem;
 }
 
@@ -146,7 +146,7 @@ h1 a {
 }
 
 .social-icons i {
-  padding: 0.5rem;
+  padding: 0.6rem;
   background: rgb(38, 35, 35);
   font-size: 2rem;
   border-radius: 0.7rem;
@@ -160,7 +160,6 @@ form {
   padding: 3rem;
   border-radius: 2rem;
   border: 0.1rem solid red;
-  
 }
 input,
 textarea {
